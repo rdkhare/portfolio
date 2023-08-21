@@ -1,4 +1,4 @@
-# My Portfolio Web App
+# Portfolio App
 
 Portfolio web app built using React, Node, and Tailwind.
 
