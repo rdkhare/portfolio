@@ -1,12 +1,12 @@
 import React from 'react';
 import Typed from 'react-typed';
-import headerImage from '../images/rajatproff.jpg';
+import headerImage from '../images/RajatEiffel.jpg';
 
 const Header = () => {
     const headerStyle = {
         backgroundImage: `url(${headerImage})`,
         backgroundSize: 'cover',
-        backgroundPosition: '70% center',
+        backgroundPosition: '20% 65%',
         height: '100vh',
       };
 

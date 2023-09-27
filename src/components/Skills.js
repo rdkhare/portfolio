@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-gray-700 py-20">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-4 text-white font-mono underline">Skills</h2>
+        <h2 className="text-3xl font-bold mb-4 text-white font-mono">Skills</h2>
         <div className="skills-container">
         <ul className="grid grid-cols-2 md:grid-cols-4 gap-16 font-mono mt-5">
           {skillsData.map((skill, index) => {

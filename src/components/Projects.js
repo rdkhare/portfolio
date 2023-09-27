@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <section id="projects" className="bg-gray-800 py-20 font-mono">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-16 text-white underline">Projects</h2>
+        <h2 className="text-3xl font-bold mb-16 text-white">Projects</h2>
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-32">
             <CardFlip
@@ -39,7 +39,7 @@ const Projects = () => {
               <div onClick={() => handleCardClick(0)} className="card-back hover:cursor-pointer" style={{ zIndex: flipped[0] ? '2' : '0', backgroundColor: '#F1F1F1', color: '#333', width: '100%', height: '100%', borderRadius: '8px' }}>
                 <h3 className="text-xl text-black font-bold mb-3 py-5">GroupAlarm</h3>
                 <p className="text-md text-black">
-                  Using Swift and Cocoapods Libraries, I built an iOS app that allowed multiple users to connect to a single alarm clock.
+                  Using Swift and Cocoapods, I built an iOS app that allowed multiple users to connect to a single alarm clock.
                 </p>
               </div>
             </CardFlip>
@@ -59,7 +59,7 @@ const Projects = () => {
               <div onClick={() => handleCardClick(1)} className="card-back hover:cursor-pointer" style={{ zIndex: flipped[1] ? '2' : '0', backgroundColor: '#F1F1F1', color: '#333', width: '100%', height: '100%', borderRadius: '8px' }}>
                 <h3 className="text-xl text-black font-bold py-4">HDSTox</h3>
                 <p className="text-md text-black ">
-                  Imported bioinformatics data into an iOS app that summarized herbal supplements which had hepatotoxicity while utilizing Swift and CocoaPods.
+                  Imported bioinformatics data into a web & iOS app that summarized herbal supplements which had hepatotoxicity.
                 </p>
               </div>
             </CardFlip>

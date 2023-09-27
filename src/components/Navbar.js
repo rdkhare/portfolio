@@ -47,7 +47,7 @@ const Navbar = () => {
               className="cursor-pointer hover:bg-black hover:bg-opacity-80 hover:text-white rounded-full px-7 py-2 transition-colors duration-300"
               onClick={() => scroll.scrollToTop({ duration: 500 })}
             >
-              rdkhare
+              Home
             </Link>
           </li>
           <li className="mx-4">
